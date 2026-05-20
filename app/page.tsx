@@ -65,7 +65,7 @@ const getFormattedDate = (date: Date) => {
 
 const getToday = () => getFormattedDate(new Date());
 
-const getLastNDays = (n) => {
+const getLastNDays = (n: number) => {
   const dates = [];
   for (let i = n - 1; i >= 0; i--) {
     const d = new Date();
