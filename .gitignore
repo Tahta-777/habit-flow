@@ -13,6 +13,10 @@
 # testing
 /coverage
 
+# Menyembunyikan file markdown selain README.md
+*.md
+!README.md
+
 # next.js
 /.next/
 /out/
