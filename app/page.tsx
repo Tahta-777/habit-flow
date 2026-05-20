@@ -75,7 +75,7 @@ const getLastNDays = (n: number) => {
   return dates;
 };
 
-const calculateStreak = (daysArray) => {
+const calculateStreak = (daysArray: string[]) => {
   if (!daysArray || daysArray.length === 0) return 0;
   let streak = 0;
   let checkDate = new Date();
